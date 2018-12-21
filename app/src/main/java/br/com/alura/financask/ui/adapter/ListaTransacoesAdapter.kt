@@ -13,8 +13,9 @@ import br.com.alura.financask.model.Tipo
 import br.com.alura.financask.model.Transacao
 import kotlinx.android.synthetic.main.transacao_item.view.*
 
-class ListaTransacoesAdapter(private val transacoes: List<Transacao>,
-                             private val context: Context) : BaseAdapter(){
+class ListaTransacoesAdapter(
+        private val transacoes: List<Transacao>,
+        private val context: Context) : BaseAdapter(){
 
 
     private val limiteDaCategoria = 14
